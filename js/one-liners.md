@@ -19,6 +19,16 @@ In the below code we are merging two different arrays in two ways using spread o
 ## Generate Array of N numbers
 <img width="758" alt="Screenshot 2024-09-10 at 10 51 35 AM" src="https://github.com/user-attachments/assets/9b2142ae-7275-4ae0-853f-0d00f516fcba">
 
+## Shuffle Array
+<img width="849" alt="Screenshot 2024-09-10 at 11 02 39 AM" src="https://github.com/user-attachments/assets/3e89b3d5-0f58-47fe-804d-2f39b53ac264">
+
+The above code somewhat works, because `Math.random() - 0.5` is a random number that may be positive or negative, so the sorting function reorders elements randomly.
+
+But because the sorting function is not meant to be used this way, not all permutations have the same probability.
+
+## Group an Array of Objects by a Specefic Property
+<img width="1126" alt="Screenshot 2024-09-10 at 11 16 53 AM" src="https://github.com/user-attachments/assets/e4f25cdf-4860-4820-85cd-119379a8181f">
 
 ## Reference URL's 
 1. https://www.freecodecamp.org/news/how-to-compare-arrays-in-javascript/
+2. https://javascript.info/task/shuffle
