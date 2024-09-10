@@ -29,6 +29,9 @@ But because the sorting function is not meant to be used this way, not all permu
 ## Group an Array of Objects by a Specefic Property
 <img width="1126" alt="Screenshot 2024-09-10 at 11 16 53 AM" src="https://github.com/user-attachments/assets/e4f25cdf-4860-4820-85cd-119379a8181f">
 
+## Array Step Counter
+<img width="854" alt="Screenshot 2024-09-10 at 12 32 51 PM" src="https://github.com/user-attachments/assets/5ca83ba2-4baf-44c0-bab7-7d33c92eaf39">
+
 ## Reference URL's 
 1. https://www.freecodecamp.org/news/how-to-compare-arrays-in-javascript/
 2. https://javascript.info/task/shuffle
