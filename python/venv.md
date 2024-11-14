@@ -1,6 +1,6 @@
 # venv
 #### STEP 1: Create a new environment
-```python -v venv venv```
+```python -m venv venv```
 
 #### STEP 2: Activate the environment
 ```source venv/bin/activate```
