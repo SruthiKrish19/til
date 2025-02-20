@@ -1,0 +1,24 @@
+.blink-container {
+    animation: blink-animation 4s steps(5, start) infinite;
+    /* Firefox */
+    -webkit-animation: blink-animation 4s steps(5, start) infinite;
+    /* Safari and Chrome */
+    -o-animation: blink-animation 4s steps(5, start) infinite;
+    /* Opera */
+    animation: blink-animation 4s steps(5, start) infinite;
+    background-color: #FF7452;
+    color: #FFFFFF;
+    border-color: #FF7452;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
