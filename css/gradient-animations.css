@@ -1,0 +1,37 @@
+.container {
+  padding: 6px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #fff;
+  background: linear-gradient(-45deg, #FF7452, #FFC400, #57D9A3, #2684FF);
+  background-size: 400% 400%;
+  animation: gradient 10s linear forwards, changeToWhite 0s 12s ease forwards;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+@keyframes changeToWhite {
+  0% {
+      background: linear-gradient(-45deg, #FF8F73, #FFE380, #79F2C0, #4C9AFF);
+      border: none;
+  }
+  100% {
+      background: white;
+      color: #172B4D;
+      border: 1px solid #7A869A;
+  }
+}
